@@ -1,0 +1,247 @@
+subject,stim_name,genre,piece,ensemble,theme,spatial,target,instruments,n_instruments,response_shape,soli_shape,stimulus_shape,fs_eeg,fs_audio,target_idx,pred_instr,correct,r_unattended_max
+0001,classique_morceau1_duo_CoFl_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,False,0.03725566049169334
+0001,classique_morceau1_duo_CoFl_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Co,False,0.027207290581224203
+0001,classique_morceau1_duo_CoOb_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.029392798146456258
+0001,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,0.029206869449880615
+0001,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,-0.0003438625852490151
+0001,classique_morceau1_duo_FlOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,True,0.04207659307734373
+0001,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,-0.017256166333468246
+0001,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Co,False,0.01093390525538969
+0001,classique_morceau1_trio_CoFlOb_theme2_stereo_Fl,classique,morceau1,trio,theme2,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,0.046845610986244145
+0001,classique_morceau2_duo_BoFh_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.028203834164843483
+0001,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,0.02716632322996469
+0001,classique_morceau2_duo_BoFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.01367443646534465
+0001,classique_morceau2_duo_BoFl_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,0.026833698737203815
+0001,classique_morceau2_duo_FhFl_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,True,-0.0020765266760966166
+0001,classique_morceau2_duo_FhFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,False,0.007083852212807086
+0001,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,-0.002300489127794998
+0001,classique_morceau2_trio_BoFhFl_theme1_stereo_Fh,classique,morceau2,trio,theme1,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,False,0.03397626012250285
+0001,classique_morceau2_trio_BoFhFl_theme2_stereo_Fl,classique,morceau2,trio,theme2,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fh,False,0.04396521119739022
+0001,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Bs,True,-0.005786836846848502
+0001,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,-0.01679971209966879
+0001,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,0.03328619966569787
+0001,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.06252287403236116
+0001,pop_falldead_trio_BsDrVx_theme1_stereo_Bs,pop,falldead,trio,theme1,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.049634443362215154
+0001,pop_falldead_trio_GtDrVx_theme1_stereo_Gt,pop,falldead,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.04859461128164585
+0001,pop_falldead_trio_GtDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Gt,False,0.012636181624663937
+0001,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Bs,True,0.0031235307999764993
+0001,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bs,False,0.00911429880175383
+0001,pop_mixtape_duo_GtVx_theme1_stereo_Gt,pop,mixtape,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Gt,True,0.017540406704973
+0001,pop_mixtape_duo_GtVx_theme1_stereo_Vx,pop,mixtape,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Gt,False,0.03392326074948138
+0001,pop_mixtape_trio_BsDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Vx,False,0.031743008282920794
+0001,pop_mixtape_trio_GtDrVx_theme1_stereo_Vx,pop,mixtape,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,2,Vx,True,0.04332921307196419
+0001,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.013525090813641595
+0002,classique_morceau1_duo_CoFl_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,0.008520091068474015
+0002,classique_morceau1_duo_CoFl_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,-0.03389638527227985
+0002,classique_morceau1_duo_CoOb_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Co,True,0.022536848237351415
+0002,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,True,-0.04637544710906449
+0002,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,True,0.01955720970779005
+0002,classique_morceau1_duo_FlOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,True,0.027230679365760777
+0002,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.03396624524730326
+0002,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Fl,False,-0.012567302224787974
+0002,classique_morceau1_trio_CoFlOb_theme2_stereo_Fl,classique,morceau1,trio,theme2,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,0.03764956028961459
+0002,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.016596149336752113
+0002,classique_morceau2_duo_BoFh_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.016693769634655173
+0002,classique_morceau2_duo_BoFl_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,0.02083665195706727
+0002,classique_morceau2_duo_BoFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.04016024543827189
+0002,classique_morceau2_duo_FhFl_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,True,-0.014009645817926375
+0002,classique_morceau2_duo_FhFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,False,0.002344340715762882
+0002,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,0.0413877843342429
+0002,classique_morceau2_trio_BoFhFl_theme1_stereo_Fh,classique,morceau2,trio,theme1,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.0021745297796252148
+0002,classique_morceau2_trio_BoFhFl_theme1_stereo_Fl,classique,morceau2,trio,theme1,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Bo,False,0.010702926124182844
+0002,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Bs,True,-0.04693336587984337
+0002,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Bs,False,0.016110125105595192
+0002,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,-0.04075315791414295
+0002,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.020077136900483305
+0002,pop_falldead_trio_BsDrVx_theme1_stereo_Dr,pop,falldead,trio,theme1,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,0.02467701754280992
+0002,pop_falldead_trio_GtDrVx_theme1_stereo_Dr,pop,falldead,trio,theme1,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Vx,False,0.02982139124530248
+0002,pop_falldead_trio_GtDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Gt,False,0.05390224617251587
+0002,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Bs,True,-0.008961048406864987
+0002,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bs,False,0.021050527414703906
+0002,pop_mixtape_duo_GtVx_theme1_stereo_Gt,pop,mixtape,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Vx,False,-0.025641417144567438
+0002,pop_mixtape_duo_GtVx_theme2_stereo_Vx,pop,mixtape,duo,theme2,stereo,Vx,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.015938848851616182
+0002,pop_mixtape_trio_GtDrVx_theme1_stereo_Gt,pop,mixtape,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Vx,False,0.034905466800621766
+0002,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.0340216645194392
+0002,pop_mixtape_trio_GtDrVx_theme2_stereo_Vx,pop,mixtape,trio,theme2,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Dr,False,0.03560512963580168
+0003,classique_morceau1_duo_CoFl_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Co,True,-0.024564619996501155
+0003,classique_morceau1_duo_CoFl_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,0.014638188223402288
+0003,classique_morceau1_duo_CoOb_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,0.026237899307779994
+0003,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,True,-0.028903668392615045
+0003,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,True,0.027033562109570166
+0003,classique_morceau1_duo_FlOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,False,0.03443309371127717
+0003,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,False,0.03271497451103316
+0003,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Co,False,0.018570219239503433
+0003,classique_morceau1_trio_CoFlOb_theme2_stereo_Fl,classique,morceau1,trio,theme2,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,False,0.07489620938643375
+0003,classique_morceau2_duo_BoFh_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.01121637238123784
+0003,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.012998919343964454
+0003,classique_morceau2_duo_BoFl_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.021208165411483116
+0003,classique_morceau2_duo_BoFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.01135122651012572
+0003,classique_morceau2_duo_FhFl_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,-0.007682883278291037
+0003,classique_morceau2_duo_FhFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.051215666834260785
+0003,classique_morceau2_trio_BoFhFl_theme2_stereo_Bo,classique,morceau2,trio,theme2,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.02834397286499359
+0003,classique_morceau2_trio_BoFhFl_theme2_stereo_Fh,classique,morceau2,trio,theme2,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,False,0.057065510585887186
+0003,classique_morceau2_trio_BoFhFl_theme2_stereo_Fl,classique,morceau2,trio,theme2,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fl,True,0.005080795084976698
+0003,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.02061103604169596
+0003,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,0.009873014497205434
+0003,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.03327909205117697
+0003,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.02961856403693963
+0003,pop_falldead_trio_GtDrVx_theme1_stereo_Dr,pop,falldead,trio,theme1,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,-0.038693627152885025
+0003,pop_falldead_trio_GtDrVx_theme1_stereo_Gt,pop,falldead,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,0.009859581599645182
+0003,pop_falldead_trio_GtDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Gt,False,0.04266329045211106
+0003,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Dr,False,0.026076549880699355
+0003,pop_mixtape_duo_BsDr_theme1_stereo_Dr,pop,mixtape,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Dr,True,0.019722310875903464
+0003,pop_mixtape_duo_GtVx_theme1_stereo_Vx,pop,mixtape,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Gt,False,0.06763885971051976
+0003,pop_mixtape_duo_GtVx_theme2_stereo_Gt,pop,mixtape,duo,theme2,stereo,Gt,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Gt,True,-0.006690349513663797
+0003,pop_mixtape_trio_BsDrVx_theme1_stereo_Vx,pop,mixtape,trio,theme1,stereo,Vx,"['Bs', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,2,Dr,False,0.06217826429051367
+0003,pop_mixtape_trio_GtDrVx_theme1_stereo_Gt,pop,mixtape,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Dr,False,0.03150978880648575
+0003,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.0842921453787584
+0004,classique_morceau1_duo_CoFl_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,False,0.0319911840618377
+0004,classique_morceau1_duo_CoFl_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Fl,True,-0.07942984942627124
+0004,classique_morceau1_duo_CoOb_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,-0.011360010982832616
+0004,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,-0.01764628581936161
+0004,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,True,0.04949420947235442
+0004,classique_morceau1_duo_FlOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,False,0.026956023747745233
+0004,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,0.0163698425582417
+0004,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Ob,True,-0.00788424346306897
+0004,classique_morceau1_trio_CoFlOb_theme2_stereo_Fl,classique,morceau1,trio,theme2,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,0.030924444727284145
+0004,classique_morceau2_duo_BoFh_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.015575355930510237
+0004,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,0.028255642939664784
+0004,classique_morceau2_duo_BoFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.018965244934510347
+0004,classique_morceau2_duo_BoFl_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.00021506141097553852
+0004,classique_morceau2_duo_FhFl_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.05885569934098959
+0004,classique_morceau2_duo_FhFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,False,-0.01703082641820231
+0004,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.04794039625782163
+0004,classique_morceau2_trio_BoFhFl_theme1_stereo_Fh,classique,morceau2,trio,theme1,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.008556222236720229
+0004,classique_morceau2_trio_BoFhFl_theme2_stereo_Fl,classique,morceau2,trio,theme2,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fl,True,0.00642392767326586
+0004,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Bs,True,0.025578756447424095
+0004,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Bs,False,-0.008530838499319484
+0004,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,0.023821450419279022
+0004,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.10541822875539619
+0004,pop_falldead_trio_BsDrVx_theme1_stereo_Bs,pop,falldead,trio,theme1,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.0047215016580839
+0004,pop_falldead_trio_GtDrVx_theme1_stereo_Gt,pop,falldead,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.04097628421197954
+0004,pop_falldead_trio_GtDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Dr,False,0.02389244465731778
+0004,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Dr,False,0.02436095557528395
+0004,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,0.03975500281104217
+0004,pop_mixtape_duo_GtVx_theme1_stereo_Gt,pop,mixtape,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Vx,False,0.00931365033219551
+0004,pop_mixtape_duo_GtVx_theme1_stereo_Vx,pop,mixtape,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Vx,True,0.053301780874490105
+0004,pop_mixtape_trio_BsDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Vx,False,0.008350591097073548
+0004,pop_mixtape_trio_GtDrVx_theme1_stereo_Vx,pop,mixtape,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,2,Dr,False,0.041857143296913084
+0004,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.04496718281724304
+0005,classique_morceau1_duo_CoFl_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Co,False,0.03000690665123649
+0005,classique_morceau1_duo_CoFl_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.005469770235107453
+0005,classique_morceau1_duo_CoOb_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Ob,False,0.0162189075869501
+0005,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,0.028855853094542878
+0005,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,True,-0.009974028224742712
+0005,classique_morceau1_duo_FlOb_theme1_stereo_Ob,classique,morceau1,duo,theme1,stereo,Ob,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Fl,False,0.015282826972772235
+0005,classique_morceau1_trio_CoFlOb_theme1_stereo_Fl,classique,morceau1,trio,theme1,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Co,False,0.026870720044095176
+0005,classique_morceau1_trio_CoFlOb_theme2_stereo_Co,classique,morceau1,trio,theme2,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Ob,False,0.025240933635183777
+0005,classique_morceau1_trio_CoFlOb_theme2_stereo_Ob,classique,morceau1,trio,theme2,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Co,False,0.01821849313271167
+0005,classique_morceau2_duo_BoFh_theme1_stereo_Bo,classique,morceau2,duo,theme1,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,0.00846190715668652
+0005,classique_morceau2_duo_BoFh_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,True,-0.04275122540605187
+0005,classique_morceau2_duo_BoFl_theme1_stereo_Bo,classique,morceau2,duo,theme1,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.025842973148181004
+0005,classique_morceau2_duo_BoFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,-0.0057177796729503865
+0005,classique_morceau2_duo_FhFl_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.007413404601156651
+0005,classique_morceau2_duo_FhFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,0.01770088979838891
+0005,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.00630675689190307
+0005,classique_morceau2_trio_BoFhFl_theme1_stereo_Fh,classique,morceau2,trio,theme1,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.01838076650424297
+0005,classique_morceau2_trio_BoFhFl_theme2_stereo_Fl,classique,morceau2,trio,theme2,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fl,True,0.009053812648118572
+0005,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.03132218165649301
+0005,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,-0.03642660591473829
+0005,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,-0.01160334131942404
+0005,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.03035528423580311
+0005,pop_falldead_trio_BsDrVx_theme1_stereo_Bs,pop,falldead,trio,theme1,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Bs,True,-0.017993872442545446
+0005,pop_falldead_trio_GtDrVx_theme1_stereo_Gt,pop,falldead,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Gt,True,0.015356920456749157
+0005,pop_falldead_trio_GtDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Dr,False,0.002835827979900093
+0005,pop_mixtape_duo_BsDr_theme2_stereo_Bs,pop,mixtape,duo,theme2,stereo,Bs,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bs,True,-0.00769429071977194
+0005,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bs,False,0.030958228927318237
+0005,pop_mixtape_duo_GtVx_theme2_stereo_Gt,pop,mixtape,duo,theme2,stereo,Gt,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Vx,False,-0.000344824048940254
+0005,pop_mixtape_duo_GtVx_theme2_stereo_Vx,pop,mixtape,duo,theme2,stereo,Vx,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,-0.018557312058744616
+0005,pop_mixtape_trio_BsDrVx_theme1_stereo_Vx,pop,mixtape,trio,theme1,stereo,Vx,"['Bs', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,2,Dr,False,0.052283885601881984
+0005,pop_mixtape_trio_BsDrVx_theme2_stereo_Bs,pop,mixtape,trio,theme2,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Dr,False,0.0570158231454874
+0005,pop_mixtape_trio_BsDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,0.006269264399202654
+0007,classique_morceau1_duo_CoFl_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Co,True,0.02204462120881853
+0007,classique_morceau1_duo_CoFl_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,0.024596548999996876
+0007,classique_morceau1_duo_CoOb_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.04785053203067846
+0007,classique_morceau1_duo_CoOb_theme1_stereo_Ob,classique,morceau1,duo,theme1,stereo,Ob,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Ob,True,-0.0372508958732876
+0007,classique_morceau1_duo_FlOb_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,-0.016052203855042496
+0007,classique_morceau1_duo_FlOb_theme1_stereo_Ob,classique,morceau1,duo,theme1,stereo,Ob,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Fl,False,0.009739704495446753
+0007,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.009473183864912567
+0007,classique_morceau1_trio_CoFlOb_theme1_stereo_Fl,classique,morceau1,trio,theme1,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Ob,False,-0.011081574979817295
+0007,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Ob,True,0.04680766114509527
+0007,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,0.036704172280923826
+0007,classique_morceau2_duo_BoFh_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,True,0.023294663253248995
+0007,classique_morceau2_duo_BoFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.012534290842714324
+0007,classique_morceau2_duo_FhFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,False,0.04226084817542939
+0007,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,False,-0.008596614307814464
+0007,classique_morceau2_trio_BoFhFl_theme1_stereo_Fl,classique,morceau2,trio,theme1,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Bo,False,-0.004997718407745654
+0007,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Bs,True,-0.0003844469293600358
+0007,pop_mixtape_duo_BsDr_theme1_stereo_Dr,pop,mixtape,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Dr,True,-0.008244545314493196
+0007,pop_mixtape_duo_GtVx_theme1_stereo_Vx,pop,mixtape,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Gt,False,0.018442036021895765
+0007,pop_mixtape_duo_GtVx_theme2_stereo_Gt,pop,mixtape,duo,theme2,stereo,Gt,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Gt,True,0.0020368963897213536
+0007,pop_mixtape_trio_BsDrVx_theme2_stereo_Bs,pop,mixtape,trio,theme2,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Dr,False,0.017185517754360148
+0007,pop_mixtape_trio_BsDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,-0.0016824195906675954
+0007,pop_mixtape_trio_GtDrVx_theme2_stereo_Vx,pop,mixtape,trio,theme2,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Dr,False,0.03271175740891336
+0008,classique_morceau1_duo_CoFl_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,False,0.035370488483639245
+0008,classique_morceau1_duo_CoFl_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Co', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.0412708212745446
+0008,classique_morceau1_duo_CoOb_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.03871410693537821
+0008,classique_morceau1_duo_CoOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Ob,True,0.0049595229215778
+0008,classique_morceau1_duo_FlOb_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Ob,False,0.03900958341175049
+0008,classique_morceau1_duo_FlOb_theme2_stereo_Ob,classique,morceau1,duo,theme2,stereo,Ob,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,False,-0.003280574415369703
+0008,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Ob,False,0.021284791015786796
+0008,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Ob,True,-0.0008716865033662949
+0008,classique_morceau1_trio_CoFlOb_theme2_stereo_Fl,classique,morceau1,trio,theme2,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Co,False,0.07463989716055551
+0008,classique_morceau2_duo_BoFh_theme1_stereo_Bo,classique,morceau2,duo,theme1,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.014245294978837175
+0008,classique_morceau2_duo_BoFh_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,True,0.013458263632342258
+0008,classique_morceau2_duo_BoFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.009189821657278255
+0008,classique_morceau2_duo_BoFl_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.0304728144396271
+0008,classique_morceau2_duo_FhFl_theme1_stereo_Fh,classique,morceau2,duo,theme1,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,-0.021010709518161957
+0008,classique_morceau2_duo_FhFl_theme1_stereo_Fl,classique,morceau2,duo,theme1,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.027963000753304722
+0008,classique_morceau2_trio_BoFhFl_theme1_stereo_Fh,classique,morceau2,trio,theme1,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.05587399729152289
+0008,classique_morceau2_trio_BoFhFl_theme2_stereo_Bo,classique,morceau2,trio,theme2,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,0.008149095943474514
+0008,classique_morceau2_trio_BoFhFl_theme2_stereo_Fl,classique,morceau2,trio,theme2,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fh,False,0.021742712881004937
+0008,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Bs,True,-0.026694457973254565
+0008,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,-0.03292135144400885
+0008,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.07921158383275617
+0008,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.06355782445436893
+0008,pop_falldead_trio_BsDrVx_theme1_stereo_Bs,pop,falldead,trio,theme1,stereo,Bs,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.03404484776541516
+0008,pop_falldead_trio_BsDrVx_theme1_stereo_Dr,pop,falldead,trio,theme1,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Bs,False,0.04296478849331933
+0008,pop_falldead_trio_BsDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Dr,False,0.03063313634103922
+0008,pop_mixtape_duo_BsDr_theme1_stereo_Bs,pop,mixtape,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Dr,False,0.000688263387348713
+0008,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,0.04000070568037095
+0008,pop_mixtape_duo_GtVx_theme1_stereo_Gt,pop,mixtape,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Gt,True,0.024468361627773477
+0008,pop_mixtape_duo_GtVx_theme1_stereo_Vx,pop,mixtape,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,1,Gt,False,-0.00896616319227367
+0008,pop_mixtape_trio_GtDrVx_theme1_stereo_Vx,pop,mixtape,trio,theme1,stereo,Vx,"['Gt', 'Dr', 'Vx']",3,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,2,Vx,True,-0.010914405590000344
+0008,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Vx,False,0.016222452734870052
+0008,pop_mixtape_trio_GtDrVx_theme2_stereo_Gt,pop,mixtape,trio,theme2,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Dr,False,0.030341494851932504
+0009,classique_morceau1_duo_CoFl_theme1_stereo_Co,classique,morceau1,duo,theme1,stereo,Co,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Fl,False,0.000924154805749498
+0009,classique_morceau1_duo_CoFl_theme1_stereo_Fl,classique,morceau1,duo,theme1,stereo,Fl,"['Co', 'Fl']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Fl,True,0.000802920714339112
+0009,classique_morceau1_duo_CoOb_theme1_stereo_Ob,classique,morceau1,duo,theme1,stereo,Ob,"['Co', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Co,False,0.040022543958753494
+0009,classique_morceau1_duo_CoOb_theme2_stereo_Co,classique,morceau1,duo,theme2,stereo,Co,"['Co', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Ob,False,0.04344373071595801
+0009,classique_morceau1_duo_FlOb_theme1_stereo_Ob,classique,morceau1,duo,theme1,stereo,Ob,"['Fl', 'Ob']",2,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Ob,True,-0.001021452006470895
+0009,classique_morceau1_duo_FlOb_theme2_stereo_Fl,classique,morceau1,duo,theme2,stereo,Fl,"['Fl', 'Ob']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,True,-0.04130920971802733
+0009,classique_morceau1_trio_CoFlOb_theme1_stereo_Co,classique,morceau1,trio,theme1,stereo,Co,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,0,Co,True,0.005316435286002391
+0009,classique_morceau1_trio_CoFlOb_theme1_stereo_Fl,classique,morceau1,trio,theme1,stereo,Fl,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,1,Ob,False,0.02180268939627303
+0009,classique_morceau1_trio_CoFlOb_theme1_stereo_Ob,classique,morceau1,trio,theme1,stereo,Ob,"['Co', 'Fl', 'Ob']",3,"(20, 7172)","(3, 1235312)","(2, 1235312)",256,44100,2,Fl,False,0.0512045188127729
+0009,classique_morceau2_duo_BoFh_theme2_stereo_Bo,classique,morceau2,duo,theme2,stereo,Bo,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,-0.00013183547633171971
+0009,classique_morceau2_duo_BoFh_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Bo', 'Fh']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,True,-0.03274218744047038
+0009,classique_morceau2_duo_BoFl_theme1_stereo_Bo,classique,morceau2,duo,theme1,stereo,Bo,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Bo,True,0.0010195675803903053
+0009,classique_morceau2_duo_BoFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Bo', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fl,True,-0.03646990254815403
+0009,classique_morceau2_duo_FhFl_theme2_stereo_Fh,classique,morceau2,duo,theme2,stereo,Fh,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fh,True,0.008222747189484222
+0009,classique_morceau2_duo_FhFl_theme2_stereo_Fl,classique,morceau2,duo,theme2,stereo,Fl,"['Fh', 'Fl']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Fh,False,0.031179787238969508
+0009,classique_morceau2_trio_BoFhFl_theme1_stereo_Bo,classique,morceau2,trio,theme1,stereo,Bo,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Fl,False,0.06635754977458941
+0009,classique_morceau2_trio_BoFhFl_theme1_stereo_Fl,classique,morceau2,trio,theme1,stereo,Fl,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Fh,False,-0.005207272663419451
+0009,classique_morceau2_trio_BoFhFl_theme2_stereo_Fh,classique,morceau2,trio,theme2,stereo,Fh,"['Bo', 'Fh', 'Fl']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Bo,False,0.053148182173618476
+0009,pop_falldead_duo_BsDr_theme1_stereo_Bs,pop,falldead,duo,theme1,stereo,Bs,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.005608920890271932
+0009,pop_falldead_duo_BsDr_theme1_stereo_Dr,pop,falldead,duo,theme1,stereo,Dr,"['Bs', 'Dr']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Dr,True,0.009656660151018619
+0009,pop_falldead_duo_GtVx_theme1_stereo_Gt,pop,falldead,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Vx,False,0.051430249992929535
+0009,pop_falldead_duo_GtVx_theme1_stereo_Vx,pop,falldead,duo,theme1,stereo,Vx,"['Gt', 'Vx']",2,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Gt,False,0.012584208962219916
+0009,pop_falldead_trio_BsDrVx_theme1_stereo_Vx,pop,falldead,trio,theme1,stereo,Vx,"['Bs', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,2,Bs,False,0.016501999157946406
+0009,pop_falldead_trio_GtDrVx_theme1_stereo_Dr,pop,falldead,trio,theme1,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,1,Vx,False,0.022089629284628626
+0009,pop_falldead_trio_GtDrVx_theme1_stereo_Gt,pop,falldead,trio,theme1,stereo,Gt,"['Gt', 'Dr', 'Vx']",3,"(20, 5052)","(3, 870148)","(2, 870148)",256,44100,0,Dr,False,0.03021357727739131
+0009,pop_mixtape_duo_BsDr_theme2_stereo_Bs,pop,mixtape,duo,theme2,stereo,Bs,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,0,Dr,False,0.03894180552387569
+0009,pop_mixtape_duo_BsDr_theme2_stereo_Dr,pop,mixtape,duo,theme2,stereo,Dr,"['Bs', 'Dr']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,0.03845759489519995
+0009,pop_mixtape_duo_GtVx_theme1_stereo_Gt,pop,mixtape,duo,theme1,stereo,Gt,"['Gt', 'Vx']",2,"(20, 5124)","(3, 882516)","(2, 882516)",256,44100,0,Vx,False,-0.008070852553213272
+0009,pop_mixtape_duo_GtVx_theme2_stereo_Vx,pop,mixtape,duo,theme2,stereo,Vx,"['Gt', 'Vx']",2,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.02903257645917777
+0009,pop_mixtape_trio_BsDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Dr,True,0.01922317283485728
+0009,pop_mixtape_trio_BsDrVx_theme2_stereo_Vx,pop,mixtape,trio,theme2,stereo,Vx,"['Bs', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,2,Bs,False,0.025678773163712892
+0009,pop_mixtape_trio_GtDrVx_theme2_stereo_Dr,pop,mixtape,trio,theme2,stereo,Dr,"['Gt', 'Dr', 'Vx']",3,"(20, 6148)","(3, 1058916)","(2, 1058916)",256,44100,1,Gt,False,0.03938757772437494

@@ -1,6 +1,6 @@
+/.gitignore
 /.DS_Store
 /behavioural_data.xlsx
-/cantisani_style_baseline_results.csv
 /preprocessed
 /raw
 /stimuli
